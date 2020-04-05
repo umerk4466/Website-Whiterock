@@ -1,0 +1,28 @@
+<!-- navbar start -->
+<nav class="navbar navbar-expand-lg fixed-top bg-white navbar-light shadow-sm">
+    <a class="navbar-brand" href="/index">
+        <img src="img/site_logos/logo.png" height="30px" class="d-inline-block align-top" alt="Whiterock strategies logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a id="home_page" class="nav-item nav-link" href="/index">Home </a>
+            <a id="about_page" class="nav-item nav-link" href="/about">About</a>
+            <a id="commercial_page" class="nav-item nav-link" href="/commercial">Commercial</a>
+            <a id="residential_page" class="nav-item nav-link" href="/residential">Residential</a>
+            <a id="why_whiterock_page" class="nav-item nav-link" href="/why_whiterock">Why Whiterock</a>
+            <a id="contact_us_page" class="nav-item nav-link" href="/contact">Contact Us</a>
+        </div>
+    </div>
+</nav>
+
+<!-- navbar-end -->
+
+
+<script>
+    // Set active class to the pages acording to their body id
+    var id = $("body").attr("id")
+    $("a#" + id).addClass("active");
+</script>

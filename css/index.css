@@ -1,0 +1,123 @@
+/* home page css */
+
+.customHeader {
+    height: 100vh;
+    /* min-height: 500px; */
+    background-image: url("../img/header_bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header_font {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    display: none;
+}
+
+.heding-font {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.custom-p {
+    font-family: sans-serif;
+    color: #7a7a7a;
+    line-height: 1.4rem;
+}
+
+
+/* in card body show only 3 line of the content */
+
+.card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-family: sans-serif;
+    color: #7a7a7a;
+}
+
+.card {
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px 0px #7a7a7a;
+}
+
+#scroll-down-btn {
+    font-size: 30px;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/img/site_logos/loading_dots.gif') 50% 50% no-repeat rgb(249, 249, 249);
+}
+
+
+/* all other pages (about, commercial, residencial, contact us etc) */
+
+.a_link:hover {
+    text-decoration: none;
+}
+
+.main_page {
+    min-height: 100vh;
+}
+
+
+/* about page css */
+
+body#about_page {
+    padding-top: 60px;
+}
+
+
+/* commercial page css */
+
+body#commercial_page {
+    padding-top: 60px;
+}
+
+
+/* residential page css */
+
+body#residential_page {
+    padding-top: 60px;
+}
+
+
+/* why_whiterock page css */
+
+body#why_whiterock_page {
+    padding-top: 60px;
+}
+
+
+/* contact_us page css */
+
+body#contact_us_page {
+    padding-top: 60px;
+}
+
+.contact_form {
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.contact_form:hover {
+    transform: scale(1.03);
+}

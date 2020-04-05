@@ -1,0 +1,43 @@
+/* chnage text alignmnmet on footer */
+
+@media (min-width: 768px) {
+    .text-r {
+        text-align: right
+    }
+    .text-l {
+        text-align: left
+    }
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-facebook:hover {
+    color: white;
+    background-color: rgb(77, 112, 177);
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.fa-twitter {
+    background: #5fb8d3;
+    color: white;
+}
+
+.fa-twitter:hover {
+    color: white;
+    background-color: rgb(76, 165, 224);
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.designer_link {
+    text-decoration: none;
+    color: black;
+}
+
+.designer_link:hover {
+    text-decoration: none;
+}
